@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+.container {
+  width: 100%; /*Устанавливает ширину содержимого элемента*/
+  max-width: 1219px; /*Устанавливает максимальную ширину элемента*/
+  margin-left: auto; /*Устанавливает величину отступа от левого края элемента*/
+  margin-right: auto; /*Устанавливает величину отступа от правого края элемента*/
+  padding-left: 55px; /*Устанавливает значение поля от левого края содержимого элемента*/
+  padding-right: 55px; /*Устанавливает значение поля от правого края содержимого элемента*/
+}
+.menu {
+    background-color: #007765;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: center;
+    align-items: center;  */
+}
+.menu__item a {
+  text-decoration: none;
+  }
+
+.header__content {
+    height: 403px;
+    background: url(/img/image.png) center no-repeat;
+    margin-top: 84px; /*Устанавливает величину отступа от верхнего края элемента*/
+    padding-top: 160px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+    padding-bottom: 160px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+   
+
+}
+.header__title {
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+  font-size: 72px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.problem  {
+  Width: 2011px;
+  Height: 719px;
+ }
+
+.problem__content{
+  Width:1110px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center;*/
+} 
